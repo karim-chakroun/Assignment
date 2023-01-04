@@ -1,0 +1,231 @@
+{
+  "departements": [
+    {
+      "id": 1,
+      "nom": "WEB",
+      "description": "WEB departement",
+      "classes": [
+        {
+          "id": 1,
+          "classe": "TWIN1",
+          "etudiants": [
+            {
+              "id": 1,
+              "etudiant": "haitham"
+            },
+            {
+              "id": 2,
+              "etudiant": "aziz"
+            },
+            {
+              "id": 3,
+              "etudiant": "asma"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "classe": "TWIN2",
+          "etudiants": [
+            {
+              "id": 4,
+              "etudiant": "karim"
+            },
+            {
+              "id": 5,
+              "etudiant": "ezer"
+            },
+            {
+              "id": 6,
+              "etudiant": "sarra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "software architecture engineering",
+      "description": "SAE departement",
+      "classes": [
+        {
+          "id": 3,
+          "classe": "SAE1",
+          "etudiants": [
+            {
+              "id": 7,
+              "etudiant": "haitham"
+            },
+            {
+              "id": 8,
+              "etudiant": "aziz"
+            },
+            {
+              "id": 9,
+              "etudiant": "asma"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "classe": "SAE2",
+          "etudiants": [
+            {
+              "id": 10,
+              "etudiant": "karim"
+            },
+            {
+              "id": 11,
+              "etudiant": "ezer"
+            },
+            {
+              "id": 12,
+              "etudiant": "sarra"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "classe": "TWIN1",
+      "departementId":1,
+      "etudiants": [
+        {
+          "id": 1,
+          "etudiant": "haitham"
+        },
+        {
+          "id": 2,
+          "etudiant": "aziz"
+        },
+        {
+          "id": 3,
+          "etudiant": "asma"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "classe": "TWIN2",
+      "departementId":1,
+      "etudiants": [
+        {
+          "id": 4,
+          "etudiant": "karim"
+        },
+        {
+          "id": 5,
+          "etudiant": "ezer"
+        },
+        {
+          "id": 6,
+          "etudiant": "sarra"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "classe": "SAE1",
+      "departementId":2,
+      "etudiants": [
+        {
+          "id": 7,
+          "etudiant": "karim"
+        },
+        {
+          "id": 8,
+          "etudiant": "ezer"
+        },
+        {
+          "id": 9,
+          "etudiant": "sarra"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "classe": "SAE2",
+      "departementId":2,
+      "etudiants": [
+        {
+          "id": 10,
+          "etudiant": "karim"
+        },
+        {
+          "id": 11,
+          "etudiant": "ezer"
+        },
+        {
+          "id": 12,
+          "etudiant": "sarra"
+        }
+      ]
+    }
+  ],
+  "etudiants": [
+    {
+      "id": 1,
+      "etudiant": "haitham",
+      "classeId":1
+    },
+    {
+      "id": 2,
+      "etudiant": "aziz",
+      "classeId":1
+    },
+    {
+      "id": 3,
+      "etudiant": "asma",
+      "classeId":1
+    },
+    {
+      "id": 4,
+      "etudiant": "karim",
+      "classeId":2
+    },
+    {
+      "id": 5,
+      "etudiant": "ezer",
+      "classeId":2
+    },
+    {
+      "id": 6,
+      "etudiant": "sarra",
+      "classeId":2
+    },
+    {
+      "id": 7,
+      "etudiant": "haitham",
+      "classeId":3
+
+    },
+    {
+      "id": 8,
+      "etudiant": "aziz",
+      "classeId":3
+    },
+    {
+      "id": 9,
+      "etudiant": "asma",
+      "classeId":3
+    },
+    {
+      "id": 10,
+      "etudiant": "karim",
+      "classeId":4
+    },
+    {
+      "id": 11,
+      "etudiant": "ezer",
+      "classeId":4
+    },
+    {
+      "id": 12,
+      "etudiant": "sarra",
+      "classeId":4
+    }
+  ]
+}

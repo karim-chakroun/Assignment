@@ -1,0 +1,16 @@
+
+<h2>Liste des etudiants de la classe: {{classe.classe | titlecase}} </h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nom</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let c of classe.etudiants">
+            <td>{{c.id}}</td>
+            <td>{{c.etudiant | titlecase}}</td>
+        </tr>
+    </tbody>
+</table>
